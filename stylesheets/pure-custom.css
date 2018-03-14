@@ -1,4 +1,45 @@
+/*
+Con herramienta online http://www.colorfavs.com/ y la imagen https://financiatucasa.herokuapp.com/images/financiatucasa_300.png
+Obtenemos la siguiente paleta de colores:
+
+verde: #45b04c
+verde2:#dcf5df
+carne: #fad8c9
+marron: #af7456
+marron2:#995f53
+*/
+
 .pure-menu-selected .pure-menu-link, .pure-menu-selected .pure-menu-link:visited {
     color: white;
 }
 
+.pure-menu-horizontal {
+    /* white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit; */
+    white-space: normal !important;
+}
+
+.splash-container {
+    background: white;
+    
+}
+
+.splash-head {
+    color: #2d3e50;
+    padding: 0;
+}
+
+.splash-subhead {
+    color: #2d3e50;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/*
+
+ @media (min-width: 48em) {
+    .splash {
+        text-align: left;
+    }
+}   
+
+*/
